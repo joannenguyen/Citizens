@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <title>Page Title</title>
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+        <!-- CONTENT FOR WEBSITE -->
+        <div class="logobar">
+            <img src="img/citizenslogo.png" id="logo">
+        </div>
+        <!--WRAPPER IS INVISIBLE-->
+        <div class="wrapper">
+            <div class="white">
+
+                <nav id="topnav">
+                    <ul id="navbar">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="informationcenter.html">Information Center</a></li>
+                        <li><a href="internal.html">Newsroom</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+
+                 <div id="headerbox3">
+                    <div id="textinheader3">
+                    <p>Use the form below to contact us! We are here to help you!</p>
+                    </div>
+                </div>
+                <div id="pagecontent3">
+                    <h1>Contact Us</h1>
+                    <form action="path/to/serverscript.php" method="post">
+                        <fieldset id="inputfield">
+                            <legend>Contact Information</legend>
+                            <div>
+                                <label for="name">First Name</label>
+                                <input type="text" name="name" id="name" value="" />
+                            </div>
+                            <div>
+                                <label for="lastname">Last Name</label>
+                                <input type="text" name="lastname" id="lastname" value="" />
+                            </div>
+                            <div>
+                                <label for="email">Email</label>
+                                <input type="text" name="email" id="email" value="" />
+                            </div>
+                            <div>
+                                <label for="phone">Phone</label>
+                                <input type="text" name="phone" id="phone" value="" />
+                            </div>
+                            <div>
+                                <label for="textarea">Comments</label>
+                                <textarea rows="2" name="textarea" id="textarea"></textarea>
+                            </div>
+                            <div>
+                                <label for="newsletter">Newsletter?</label>
+                                <input type="radio" name="newsletter" id="newsletter" value="newsletter" />
+                            </div>
+                            <div id="submitbutton">
+                                <input type="button" class="button" value="Submit" />
+                            </div>
+                        </div>
+
+                    </fieldset>
+                </form>
+            </div>
+        </div> 
+        <div class="footer">
+            
+            <a href="#">Careers</a>
+            <a href="#">Trademark and Copyright</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms and Conditions</a>
+        </div>
+        <script src="js/script.js"></script>
+    </body>
+</html>

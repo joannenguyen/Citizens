@@ -1,0 +1,412 @@
+/*css file*/
+
+body{
+    background: #ddeaf0;
+}
+
+nav{
+	font-family: Arial, sans-serif;
+	width: 720px;
+	height: 40px;
+	margin: 0 auto;
+	border-radius: 5px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f1f3f2+0,d5e1e1+100 */
+background: #f1f3f2; /* Old browsers */
+background: -moz-linear-gradient(top,  #f1f3f2 0%, #d5e1e1 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f1f3f2), color-stop(100%,#d5e1e1)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #f1f3f2 0%,#d5e1e1 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #f1f3f2 0%,#d5e1e1 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #f1f3f2 0%,#d5e1e1 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #f1f3f2 0%,#d5e1e1 100%); /* W3C */
+	border-style: solid;
+	border-color: #dedede;
+	margin-bottom: 20px;
+}
+
+#topnav ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: block;
+	text-align: center;
+}
+
+#navbar li{
+	display: inline-block;
+	margin: 5px;
+	padding-right: 15px;
+}
+
+#navbar a{
+	text-decoration: none;
+	display: block;
+	color: #236e9b;
+	font-size: 1em;
+	padding: 8px 20px;
+	margin: 0 auto;
+}
+
+
+.clear{
+	clear: both;
+}
+
+.logobar{
+	background-color: #ddeaf0;
+	margin: 0 auto;
+	width: 770px;
+	height: 49px;
+}
+
+#logo{
+	float: left;
+
+}
+#headerbox{
+	width: 720px;
+	height: 160px;
+	margin: 0 auto;
+	border-radius: 5px;
+	background-color: #669696;
+	background-image: url(../img/homeimage.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+
+#textinheader{
+	width: 60%;
+	height: 100px;
+	float: right;
+	margin-right: 15px;
+	margin-top: 20px;
+}
+
+#Read-More{
+	width: 90px;
+	height: 12px;
+	padding: 10px;
+	background-color: #3e6e6e;
+	border-radius: 5px;
+	color: white;
+	float: right;
+	text-align: center;
+	font-family: Arial, sans-serif;
+	font-size: small;
+	margin-top: 20px;
+}
+
+#Read-More a{
+	text-decoration: none;
+	color: white;
+}
+
+#headerbox p{
+	color: white;
+	font-family: Arial, sans-serif;
+	float: right;
+	font-size: 11pt;
+}
+
+#pagecontent{
+	width: 720px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+
+p{
+	line-height: 1.5;
+	font-family: Arial, sans-serif;
+}
+
+li{
+	font-family: Arial, sans-serif;
+	font-size: 10pt;
+}
+
+#subheader-content li{
+	line-height: 1.5;
+}
+
+h1{
+	 
+	font-family: Arial, sans-serif;
+	color: #0c3a5b;
+}
+
+h2{
+	font-family: Arial, sans-serif;
+	color: #0c3a5b;
+}
+
+h3{
+	margin-left: 20px;
+	color: #0c3a5b;
+	font-family: Arial, sans-serif;
+}
+#latest-headlines{
+	list-style: none;
+	width: 47%;
+	/*height: 320px;*/
+	background-color: #f1f1f1;
+	margin-left: 20px;
+	float: left;
+	border-radius: 20px;
+	padding-bottom: 20px;
+}
+
+#textheadlines a{
+	text-decoration: none;
+	display: block;
+	font-size: 1em;
+	font-weight: bold;
+	color: #236e9b;
+	padding: 8px 20px;
+	margin: 0 auto;
+}
+
+#textheadlines p{
+	font-size: 10pt;
+	margin: 0px 15px 0px 20px;
+
+
+}
+
+#pagecontent2{
+	width: 47%;
+	height: 320px;
+	float: left;
+	margin-left: 10px;
+	padding-left: 15px;
+}
+
+#pagecontent2 p{
+	font-size: 10pt;
+
+}
+
+.wrapper{
+	width: 770px;
+	margin: 0 auto;
+	
+}
+
+.white{
+	background-color: white;
+	width: 770px;
+	margin: 0 auto;
+	border-radius: 10px;
+	padding: 20px;
+	margin-top: 10px;
+}
+
+.footer{
+	width: 725px;
+	height: 30px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 5px;
+}
+
+.footer a{
+	text-decoration: none;
+	display: inline-block;
+	font-size: .5em;
+	padding: 8px 20px;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	color: #236e9b;
+
+}
+ /*internal CSS*/
+
+.Newsheader{
+	margin-left: 20px;
+	border-bottom: 1px solid #7ca8b5;
+	margin-right: 20px;
+}
+
+.subheader h3{
+	color: black;
+}
+
+#subheader-content p{
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 10pt;
+}
+
+/*information center*/
+#informationheaderbox{
+	width: 720px;
+	height: 160px;
+	margin: 0 auto;
+	border-radius: 5px;
+	background-color: #669696;
+	padding-top: 20px;
+}
+
+#informationheaderbox h1{
+	text-align: center;
+}
+
+#informationheaderbox p{
+	color: white;
+	font-family: Arial, sans-serif;
+	font-size: 11pt;
+	text-align: center;
+}
+
+
+#Communityfacilities{ 
+	width: 46.6%;
+	height: 200px;
+	background-color: #e0efe7;
+	float: left;
+
+}
+
+table{
+	width: 80%;
+	border-collapse: collapse;
+}
+
+table, th, td {
+	border: 2px solid white;
+}
+td{
+	font-family: Arial, sans-serif;
+	font-size: 10pt;
+}
+th{
+	height: 10px;
+	background-color: #679797;
+	color: white;
+	text-align: left;
+	font-family: Arial, sans-serif;
+	font-size: 10pt;
+
+}
+tr.firstrow td {
+	background-color: #ddeaf0;
+}
+
+#latest-headlines2 {
+	list-style: none;
+	width: 47%;
+	background-color: #f1f1f1;
+	margin-left: 25px;
+	float: left;
+	padding-bottom: 20px;
+}
+
+#Boardmeetings {
+	float: left;
+	margin-left: 25px;
+}
+
+#Boardmeetings table{
+	margin-left: 15px;
+}
+
+#Boardmeetings table{
+	width: 90%;
+}
+#climatecontent {
+	float: left;
+	margin-left: 25px;
+	width: 47%;
+}
+ #climatecontent h2{
+ 	margin-left: 20px;
+ 	margin-bottom: 13px;
+ 	margin-top: 10px;
+ }
+
+ #climatecontent table{
+ 	margin-left: 30px;
+ }
+
+ #Communityfacilities h2{
+ 	margin-top: 10px;
+ 	margin-left: 20px;
+ 	margin-bottom: 5px;
+ }
+
+ #Communityfacilities ul{
+ 	margin-left: 20px;
+ 	margin-top: 10px;
+ }
+
+ #Communityfacilities li{
+ 	color: #236e9b;
+ }
+
+/* Contact Us*/
+
+#headerbox3 {
+	width: 720px;
+	height: 160px;
+	margin: 0 auto;
+	border-radius: 5px;
+	background-color: #669696;
+	background-image: url(../img/homeimage.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+#textinheader3 {
+	width: 60%;
+    height: 100px;
+}
+
+#headerbox3 p{
+	color: white;
+	font-family: Arial, sans-serif;
+	font-size: 11pt;
+	text-align: center;
+	margin-top: 40px;
+	float: left;
+	margin-left: 20px;
+}
+
+form {
+	font-family: Arial, sans-serif;
+	font-size: 10pt;
+}
+
+#inputfield label{
+	display: inline-block;
+	width: 20%;
+	margin-bottom: 10px;
+}
+
+#inputfield input{
+	display: inline-block;
+	width: 60%
+}
+
+#inputfield textarea{
+	width: 60%;
+	height: 20px;
+	vertical-align: middle;
+}
+#submitbutton input.button {
+	width: 75px;
+	height: 30px;
+	border-radius: 5px;
+	background-color: #b0b0b0;
+	font-family: Arial, sans-serif;
+	color: white;
+}
+
+#submitbutton {
+	text-align: center;
+}
+
+#pagecontent3 h1, form {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
