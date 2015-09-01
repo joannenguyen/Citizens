@@ -18,9 +18,12 @@ background: -webkit-linear-gradient(top,  #f1f3f2 0%,#d5e1e1 100%); /* Chrome10+
 background: -o-linear-gradient(top,  #f1f3f2 0%,#d5e1e1 100%); /* Opera 11.10+ */
 background: -ms-linear-gradient(top,  #f1f3f2 0%,#d5e1e1 100%); /* IE10+ */
 background: linear-gradient(to bottom,  #f1f3f2 0%,#d5e1e1 100%); /* W3C */
-	border-style: solid;
-	border-color: #dedede;
+	border: 1px solid #dedede;
 	margin-bottom: 20px;
+}
+
+#navbar a:hover{
+	color: white;
 }
 
 #topnav ul{
@@ -73,6 +76,10 @@ background: linear-gradient(to bottom,  #f1f3f2 0%,#d5e1e1 100%); /* W3C */
 	background-repeat: no-repeat;
 }
 
+
+#headerbox a:hover{
+	color: #0c3a5b;
+}
 
 #textinheader{
 	width: 60%;
@@ -137,6 +144,7 @@ h1{
 h2{
 	font-family: Arial, sans-serif;
 	color: #0c3a5b;
+	font-size: 1.3em;
 }
 
 h3{
@@ -155,6 +163,10 @@ h3{
 	padding-bottom: 20px;
 }
 
+#latest-headlines a:hover{
+	color: #0c3a5b;
+}
+
 #textheadlines a{
 	text-decoration: none;
 	display: block;
@@ -167,7 +179,7 @@ h3{
 
 #textheadlines p{
 	font-size: 10pt;
-	margin: 0px 15px 0px 20px;
+	margin: 0px 15px 10px 20px;
 
 
 }
@@ -207,6 +219,9 @@ h3{
 	padding-top: 5px;
 }
 
+.footer a:hover{
+	color: white;
+}
 .footer a{
 	text-decoration: none;
 	display: inline-block;
@@ -235,6 +250,11 @@ h3{
 	font-size: 10pt;
 }
 
+blockquote {
+	font-style: italic;
+	text-align: center;
+	color: #8ab6e3;
+}
 /*information center*/
 #informationheaderbox{
 	width: 720px;
@@ -299,6 +319,9 @@ tr.firstrow td {
 	padding-bottom: 20px;
 }
 
+#latest-headlines2 a:hover{
+	color: #0c3a5b;
+}
 #Boardmeetings {
 	float: left;
 	margin-left: 25px;
